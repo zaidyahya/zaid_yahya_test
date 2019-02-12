@@ -57,8 +57,7 @@ caches = [
 
 
 def distance(lat1, lon1, lat2, lon2):
-    """Distance between 2 geo coordinates
-    Reference: https://www.movable-type.co.uk/scripts/latlong.html
+    """Ref: https://www.movable-type.co.uk/scripts/latlong.html
     """
     phi1 = math.radians(lat1)
     phi2 = math.radians(lat2)
