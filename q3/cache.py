@@ -1,9 +1,7 @@
 from time import time
 import math
 
-
 class Cache:
-
     def __init__(self, id, latitude, longitude, capacity):
         self.id = id
         self.longitude = longitude
